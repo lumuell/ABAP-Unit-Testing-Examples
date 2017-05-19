@@ -24,5 +24,5 @@ CLASS lcl_test_palindrome_checker IMPLEMENTATION.
 
   METHOD test_abba.
     cl_abap_unit_assert=>assert_true( checker->is_palindrome( 'ABBA') ).
-  ENDMETHOD.                    "test_abba
+  ENDMETHOD.                   
 ENDCLASS.
