@@ -1,4 +1,4 @@
-INTERFACE zif_lmn0344_input_validator
+INTERFACE zif_demo_input_validator
   PUBLIC .
   METHODS is_input_valid
     IMPORTING input TYPE string
