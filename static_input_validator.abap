@@ -1,18 +1,18 @@
-CLASS zcl_lmn0344_tdd_validator DEFINITION
+CLASS zcl_demo_tdd_validator DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
 
   PUBLIC SECTION.
-    INTERFACES zif_lmn0344_input_validator.
+    INTERFACES zif_demo_input_validator.
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.  
 
-CLASS zcl_lmn0344_tdd_validator IMPLEMENTATION.
-  METHOD zif_lmn0344_input_validator~is_input_valid.
+CLASS zcl_demo_tdd_validator IMPLEMENTATION.
+  METHOD zif_demo_input_validator~is_input_valid.
     DATA input_to_upper TYPE string.
-    DATA palindrome_checker TYPE REF TO zcl_lmn0344_palindrome_checker.
+    DATA palindrome_checker TYPE REF TO zcl_demo_palindrome_checker.
     DATA valid_prefixes TYPE stringtab.
     CREATE OBJECT palindrome_checker.
 
