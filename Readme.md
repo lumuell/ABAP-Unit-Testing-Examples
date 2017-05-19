@@ -1,7 +1,6 @@
 # Test examples of ABAP Unit Demo
-
-For examples of unit testing in general: `palindrome_checker_test.abap`
-For examples of unit testing with mockA: `db_input_validator_test.abap`
+* For examples of unit testing in general: `palindrome_checker_test.abap`
+* For examples of unit testing with mockA: `db_input_validator_test.abap`
 
 ## Input validator I
 Write a method which 
